@@ -58,11 +58,8 @@ The core hardware has been assembled, and basic LQR control has been implemented
 
 ## Future Work
 
-- Implement Kalman filter for improved sensor fusion  
-- Add real-time data logging and plotting via Python  
-- Explore alternative control strategies (e.g., MPC)  
-- Publish detailed Simulink/Simscape files and analysis  
-- Improve mechanical design for higher stability and modularity  
+- Improve controller/mechanical design for higher robustness and stability
+- Go from the breadboard-wired prototype to a proper custom PCB design
 
 ---
 
