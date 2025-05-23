@@ -48,7 +48,7 @@ Sensor fusion combines data from the MPU6050 (for angle estimation) and the AS50
 
 ---
 
-## Project Status
+## Project Status (22.05.2025)
 
 🔧 **In Progress**
 
