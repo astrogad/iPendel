@@ -52,14 +52,14 @@ Sensor fusion combines data from the MPU6050 (for angle estimation) and the AS50
 
 🔧 **In Progress**
 
-The core hardware has been assembled, and basic LQR control has been implemented. Stabilization is functional, and further optimization (especially in tuning and modeling) is ongoing.
+The core hardware has been assembled, and basic LQR control has been implemented. Stabilization is _marginally_ functional i.e. the pendulum balances at it's unstable equilibrium position, when manually brought to this position and let go after "feeling" the control loop taking over. Further optimization (especially in tuning and modeling) is ongoing.
 
 ---
 
 ## Future Work
 
-- Improve controller/mechanical design for higher robustness and stability
-- Go from the breadboard-wired prototype to a proper custom PCB design
+- Implement hardware and software improvements to increase robustness against external disturbances
+- Go from the breadboard-wired prototype to a proper custom PCB design, and possibly tweak the controller to incorporate the resulting changes in the dynamics.
 
 ---
 
