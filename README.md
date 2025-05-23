@@ -52,7 +52,7 @@ Sensor fusion combines data from the MPU6050 (for angle estimation) and the AS50
 
 🔧 **In Progress**
 
-The core hardware has been assembled, and basic LQR control has been implemented. Stabilization is _marginally_ functional i.e. the pendulum balances at it's unstable equilibrium position, when manually brought to this position and let go after "feeling" the control loop taking over. Further optimization (especially in tuning and modeling) is ongoing.
+The core hardware has been assembled, and basic LQR control has been implemented. Stabilization is _marginally_ functional - the pendulum can balance at its unstable equilibrium point when manually positioned and released, at which point the control loop begins to take over. Further optimization (especially in tuning and modeling) is ongoing.
 
 ---
 
